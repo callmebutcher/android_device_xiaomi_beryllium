@@ -473,6 +473,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.recovery.ui.margin_height=87
 
+# Remove packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # RenderScript
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
